@@ -21,5 +21,6 @@ from.import views as v
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('justsee/', v.index)
+    path('justsee/', v.index),
+    path('about/', v.about),
 ]
