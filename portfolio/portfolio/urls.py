@@ -23,4 +23,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('justsee/', v.index),
     path('about/', v.about),
+    path('datastore/', v.store,name= 'datastore'),
 ]
